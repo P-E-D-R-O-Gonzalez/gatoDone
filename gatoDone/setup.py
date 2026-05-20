@@ -1,6 +1,6 @@
 import setuptools
 setuptools.setup(     
-     name="sub-module",     
+     name="gatoDone",     
      version="0.0.1",
      python_requires=">=3.6",   
      packages=["gatoDone"],
