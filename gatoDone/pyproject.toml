@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gatoDone"
+version = "0.0.1"
+description = "Play a cat sound when Python code finishes executing"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Pedro Gonzalez" }
+]
+dependencies = [
+  "playsound"
+]
+
+[project.urls]
+Homepage = "https://github.com/P-E-D-R-O-Gonzalez/gatoDone"
+Repository = "https://github.com/P-E-D-R-O-Gonzalez/gatoDone"
+
+[tool.setuptools.package-data]
+gatoDone = ["*.mp3"]
