@@ -3,15 +3,13 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gatoDone"
+name = "gatoDone_PedroGonzalez"
+authors=[{name="Pedro Gonzalez",email="pg77773333@gmail.com"}]
 version = "0.0.1"
 description = "Play a cat sound when Python code finishes executing"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-authors = [
-  { name = "Pedro Gonzalez" }
-]
 dependencies = [
   "playsound"
 ]
